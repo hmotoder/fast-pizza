@@ -1,4 +1,4 @@
 # fast-pizza
 
-![fast-pizza-icon](./fast-pizza.png)
+![fast-pizza-icon](./src/fast-pizza.png)
 
