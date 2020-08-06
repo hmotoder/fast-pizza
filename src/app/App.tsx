@@ -1,10 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import './App.css';
 import Home from '../screen/home/Home'
 import Order from '../screen/order/Order';
 import Thanks from '../screen/thanks/Thanks';
-
 
 function App() {
   return (
