@@ -1,16 +1,22 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export interface OrderProps {
     
 }
 export class Order extends Component<OrderProps> {
-
+    render() {
+        return (
+            <OrderView />
+        )
+    }
 }
 
 const OrderView: React.FC = (props) => {
   return (
-    <div className="App">
+    <div>
         order
+        <Link to="/thanks">THANKS</Link>
     </div>
   );
 }
