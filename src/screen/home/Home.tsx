@@ -15,7 +15,7 @@ export class Home extends Component<HomeProps> {
 const HomeView: React.FC = (props) => {
   return (
     <div>
-      <h1>FAST-PIZZA</h1>
+      <Link to="/"><h1>FAST-PIZZA</h1></Link>
       <div  style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
         <div>
           <h2>マルゲリータ</h2>
